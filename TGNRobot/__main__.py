@@ -74,9 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-🌺Hey there! My name is *Saber*.
+Hey!.I'm Natalie🥀.I am a powerfull group management bot.
 
-I can help manage your groups with useful features, feel free to add me to your groups!
+I'm here to manage your groups cool and safely📲.My special commands and more about me are below🌵.
+
+©Natalie bot project create by @SANTA_R1
 """
 STICKERS = (
       "CAACAgUAAxkBAAMxYaC7sIURJEZ2UwS63R2ddwclqKoAAsADAAJgmgFVYsOYytk-2b4iBA",
@@ -85,17 +87,18 @@ STICKERS = (
 buttons = [
    
     [
-        InlineKeyboardButton(text="📡Updates Channel", url=f"https://t.me/theekshana_official"),
+        InlineKeyboardButton(text="Updates 📢", url=f"https://t.me/Natalie_Updates"),
         InlineKeyboardButton(
-            text="🖲support Group", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="support 📲", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="📜Source Code", url=f"https://github.com/imtheekshana126/saber-bot"),
-        InlineKeyboardButton(text="❔Help", callback_data="help_back"),
+        InlineKeyboardButton(text=" Developer 💾", url=f"https://t.me/Santa_R1"),
+        InlineKeyboardButton("),
+        InlineKeyboardButton(text="Help ❓", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="➕Add Saber To Your Groups➕", url=f"t.me/TheSaberBot?startgroup=true"),
+        InlineKeyboardButton(text="➕Add Natalie To Your Group ➕", url=f"t.me/Miss_Nataliebot?startgroup=true"),
     ],
 ]
 
